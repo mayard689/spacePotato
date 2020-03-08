@@ -1,0 +1,44 @@
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ git pull
+
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Dépaquetage des objets: 100% (3/3), fait.
+Depuis https://github.com/mayard689/spacePotato
+   67fd724..e876057  master     -> origin/master
+Fusion automatique de README.md
+CONFLIT (contenu) : Conflit de fusion dans README.md
+La fusion automatique a échoué ; réglez les conflits et validez le résultat.
+
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ nano README.md
+
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ git add README.md
+
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ git commit
+
+[master cf1d0f4] Merge branch 'master' of https://github.com/mayard689/spacePotato
+
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ git pull
+
+Déjà à jour.
+
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ git push origin master
+
+Username for 'https://github.com': mayard689
+Password for 'https://mayard689@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/mayard689/spacePotato/'
+
+adrien@Adrien-IP:~/gitWorkspace/spacePotato$ git push origin master
+
+Username for 'https://github.com': mayard689
+Password for 'https://mayard689@github.com': 
+Décompte des objets: 4, fait.
+Delta compression using up to 8 threads.
+Compression des objets: 100% (3/3), fait.
+Écriture des objets: 100% (4/4), 429 bytes | 429.00 KiB/s, fait.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/mayard689/spacePotato
+   e876057..cf1d0f4  master -> master
